@@ -1,0 +1,981 @@
+abbr,
+address,
+article,
+aside,
+audio,
+b,
+blockquote,
+body,
+caption,
+cite,
+code,
+dd,
+del,
+dfn,
+div,
+dl,
+dt,
+em,
+fieldset,
+figure,
+footer,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+header,
+hgroup,
+html,
+i,
+iframe,
+img,
+ins,
+kbd,
+label,
+legend,
+li,
+mark,
+menu,
+nav,
+object,
+ol,
+p,
+pre,
+q,
+samp,
+section,
+small,
+span,
+strong,
+sub,
+sup,
+table,
+tbody,
+td,
+tfoot,
+th,
+thead,
+time,
+tr,
+ul,
+var,
+video,
+a {
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+    color: #252525;
+    font-size: 14px;
+    color: #000;
+    line-height: normal;
+    font-weight: 300;
+    text-align: left;
+}
+
+img {
+    max-width: 100%;
+}
+
+ul:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+ul,
+li {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.wrap {
+    max-width: 1238px;
+    display: block;
+    margin: 0 auto;
+    width: 90%;
+}
+
+.clear {
+    clear: both;
+}
+
+body,
+html {
+    overflow-x: hidden;
+}
+
+body {
+    overflow-x: hidden;
+    margin: 0 auto;
+    margin: 0px;
+    padding: 0px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0px;
+}
+
+h1 {
+    font-size: 50px;
+    color: #026c68;
+    font-weight: 900;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.left {
+    float: left;
+}
+
+.rgt {
+    float: right;
+}
+
+.banner header .wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.banner {
+    display: block;
+    width: 100%;
+    background: #d9e9e8;
+    height: 920px;
+    margin-bottom: 120px;
+}
+
+.banner header {
+    display: block;
+    background: #026c68;
+    position: relative;
+}
+
+.banner header:before {
+    content: '';
+    display: block;
+    width: 29%;
+    height: 100%;
+    background: #fff;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 0;
+}
+
+.banner header .logo {
+    display: block;
+    float: left;
+    /* width: 35%; */
+    padding: 24px 0px 24px 0px;
+    background: #fff;
+    position: relative;
+    padding-right: 149px;
+}
+
+.banner header .logo:after {
+    content: '';
+    background: url(../images/hdr-dsgn.png)no-repeat center;
+    z-index: 999;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 148px;
+    height: 100%;
+}
+
+.banner header .rgt {
+    display: flex;
+    flex-flow: column;
+    align-items: end;
+}
+
+.banner header .rgt .toppnl {
+    padding-top: 0;
+}
+
+.banner header .rgt .toppnl a {
+    color: #fff;
+}
+
+.banner header .rgt ul {
+    display: flex;
+    float: right;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.banner header .rgt ul li {
+    display: block;
+    float: left;
+    margin-right: 36px;
+}
+
+.banner header .rgt ul li:last-child {
+    margin-right: 0px;
+}
+
+.banner header .rgt ul li a {
+    font-size: 18px;
+    font-weight: 300;
+    color: #fff;
+}
+
+.banner header .rgt ul li .btn {
+    display: flex;
+    padding: 8px 18px;
+    background: #fff;
+    color: #000;
+    border-radius: 10px;
+    align-items: center;
+}
+
+.banner header .rgt ul li .btn img {
+    margin-right: 10px;
+}
+
+.banner .left {
+    display: block;
+    width: 58.94%;
+}
+
+.banner .bnrimg {
+    display: block;
+    margin-top: 160px;
+}
+
+.banner .left h1 {
+    line-height: 60px;
+    margin-top: 18px;
+}
+
+.banner .left h4 {
+    font-size: 20px;
+    font-weight: 300;
+    margin-top: 2px;
+    line-height: 30px;
+}
+
+.banner .rght {
+    display: block;
+    float: right;
+    width: 32.60%;
+}
+
+.banner .rght .form {
+    display: block;
+    background: #fff;
+    box-shadow: 1px 3px 16px #00000017;
+    margin-top: 216px;
+    padding: 32px;
+    border-radius: 30px;
+}
+
+.banner .rght .form h3 {
+    font-size: 25px;
+    color: #026c68;
+    font-weight: 900;
+    margin-bottom: 24px;
+}
+
+.banner .rght .form input {
+    background: none;
+    font-size: 16px;
+    font-weight: 500;
+    color: #000;
+    outline: none;
+    display: block;
+    width: 95%;
+    border: 1px solid #dedede;
+    margin-bottom: 15px;
+    padding: 8px 8px;
+}
+
+.banner .rght .form .submit {
+    padding: 12px 8px 12px 8px;
+    background: #026c68;
+    width: 95%;
+    margin-top: 25px;
+}
+
+.banner .rght .form .submit h5 {
+    color: #fff;
+    text-align: center;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.Products {
+    display: block;
+    margin-bottom: 120px;
+}
+
+.Products h2 {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 14px;
+}
+
+.Products span {
+    font-size: 50px;
+    color: #1d1a15;
+    font-weight: 900;
+}
+
+.Products ul {
+    display: block;
+    margin-top: 37px;
+}
+
+.Products ul li {
+    display: block;
+    float: left;
+    margin-right: 5.64%;
+    width: 29.05%;
+}
+
+.Products ul li:last-child {
+    margin-right: 0px;
+}
+
+.Products ul li a {
+    display: block;
+    background: #d9e9e8;
+    padding: 50px 6px 31px 10px;
+    border-radius: 30px;
+    margin-bottom: 10px;
+}
+
+.Products ul li h5 {
+    font-size: 18px;
+    font-weight: 500;
+    color: #000;
+    display: block;
+    text-align: center;
+}
+
+.Certifications {
+    display: block;
+    background: #d9e9e8;
+    padding: 120px 0px 120px 0px;
+}
+
+.Certifications h2 {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 14px;
+}
+
+.Certifications span {
+    font-size: 50px;
+    color: #1d1a15;
+    font-weight: 900;
+}
+
+.Certifications {
+    display: block;
+}
+
+.Certifications ul {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 37px;
+}
+
+.Certifications ul li:nth-child(even) {
+    margin-top: 16%;
+}
+
+.Certifications ul li {
+    display: block;
+    float: left;
+}
+
+.Certifications ul li:last-child {
+    margin-right: 0px;
+}
+
+.Certifications ul li a {
+    display: flex;
+    width: 206px;
+    height: 206px;
+    background: #fff;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.Certifications ul li a img {
+    width: 100%;
+    display: block;
+    transform: scale(1.5);
+}
+
+.Approval {
+    display: block;
+    margin: 120px 0px 120px 0px;
+}
+
+.Approval h2 {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 14px;
+}
+
+.Approval h1 {
+    margin-bottom: 43px;
+}
+
+.Approval span {
+    font-size: 50px;
+    color: #1d1a15;
+    font-weight: 900;
+}
+
+.Approval .box {
+    width: 23.80%;
+    display: block;
+    float: left;
+    margin-right: 1.60%;
+}
+
+.Approval .box input {
+    outline: none;
+    width: 273px;
+    border: 1px solid #dedede;
+    padding: 10px 10px 10px 10px;
+    margin-right: 15px;
+    border-radius: 5px;
+}
+
+.Approval .box.sec select {
+    outline: none;
+    color: #7c7777;
+    border: 1px solid #dedede;
+    float: left;
+    padding: 10px 5px 8px 5px;
+    border-radius: 5px;
+    padding-right: 186px;
+}
+
+.Approval .box.sec:nth-last-child(2n+1) {
+    margin-right: 0px;
+}
+
+.Approval .box select option {
+    padding-right: 177px;
+}
+
+.Approval .submit {
+    width: 126px;
+    background: #026c68;
+    padding: 10px 12px;
+    border-radius: 5px;
+    margin-top: 19px;
+}
+
+.Approval .submit a h5 {
+    font-size: 16px;
+    color: #fff;
+    font-weight: 500;
+    text-align: center;
+}
+
+.Dealer {
+    display: block;
+    padding: 120px 0px 120px 0px;
+    background: url(../images/wave.png)no-repeat right top #d7e7e6;
+}
+
+.Dealer ::after {
+    content: '';
+    display: block;
+    background-image: url(../images/wave.png);
+}
+
+.Dealer h2 {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 14px;
+}
+
+.Dealer h1 {
+    margin-bottom: 27px;
+}
+
+.Dealer .left {
+    display: block;
+    width: 51.97%;
+}
+
+.Dealer .left img {
+    border-radius: 30px;
+}
+
+.Dealer .rgt {
+    display: block;
+    background: #fff;
+    box-shadow: 1px 3px 16px #00000017;
+    padding: 32px;
+    border-radius: 30px;
+    width: 35.72%;
+}
+
+.Dealer .rgt input {
+    background: none;
+    font-size: 16px;
+    font-weight: 500;
+    color: #000;
+    outline: none;
+    display: block;
+    width: 96%;
+    border: 1px solid #dedede;
+    margin-bottom: 15px;
+    padding: 12px 8px;
+}
+
+.Dealer .rgt .submit {
+    padding: 12px 8px 12px 8px;
+    background: #026c68;
+    width: 96%;
+    margin-top: 32px;
+}
+
+.Dealer .rgt .submit h5 {
+    color: #fff;
+    text-align: center;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.contact {
+    display: block;
+    margin: 120px 0px 120px 0px;
+}
+
+.contact h2 {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 14px;
+}
+
+.contact h1 {
+    margin-bottom: 27px;
+}
+
+.contact span {
+    font-size: 50px;
+    color: #1d1a15;
+    font-weight: 900;
+}
+
+.contact .left {
+    display: block;
+    width: 60.37%;
+    float: left;
+}
+
+.contact .left input:nth-child(even) {
+    margin-right: 0px;
+}
+
+.contact .left input {
+    background: none;
+    border: 0px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #000;
+    width: 330px;
+    outline: none;
+    display: block;
+    width: 330px;
+    margin-right: 34px;
+    padding: 10px;
+    border-bottom: 1px solid #e5e5e5;
+    float: left;
+    margin-bottom: 10px;
+}
+
+.contact .left textarea {
+    display: block;
+    background: none;
+    border: 0px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #000;
+    outline: none;
+    width: 97%;
+    border-bottom: 1px solid #00000021;
+    padding-left: 10px;
+}
+
+.contact .left textarea {
+    margin-right: 0px;
+}
+
+.contact .left .submit {
+    padding: 12px 8px 12px 8px;
+    background: #026c68;
+    width: 160px;
+    margin-top: 22px;
+    border-radius: 5px;
+}
+
+.contact .left .submit h5 {
+    color: #fff;
+    text-align: center;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.contact .rgt {
+    display: block;
+    width: 29.37%;
+    margin-bottom: 30px;
+}
+
+.contact .rgt ul {
+    display: block;
+    background: #026c68;
+    height: 308px;
+    border-radius: 30px;
+    padding: 30px;
+}
+
+.contact .rgt ul li {
+    display: block;
+    margin-bottom: 25px;
+    padding-bottom: 25px;
+    border-bottom: 1px solid #ffffff29;
+}
+
+.contact .rgt ul li:last-child {
+    border-bottom: 0px;
+}
+
+.contact .rgt ul li h4 {
+    display: block;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 11px;
+}
+
+.contact .rgt ul li p {
+    display: block;
+    color: #fff;
+    line-height: 24px;
+}
+
+
+.about {
+    display: block;
+    margin: 120px 0px 120px 0px;
+}
+
+.about h2 {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 14px;
+}
+
+.about h1 {
+    margin-bottom: 20px;
+}
+
+.about span {
+    font-size: 50px;
+    color: #1d1a15;
+    font-weight: 900;
+}
+
+.about p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #6d6d6d;
+    margin-bottom: 18px;
+    line-height: 30px;
+}
+
+.about ul {
+    display: block;
+    width: 100%;
+}
+
+.about ul li {
+    float: left;
+    margin-right: 90px;
+}
+
+.about ul li:last-child {
+    margin-right: 0px;
+}
+
+.about ul li h5 {
+    display: block;
+    margin-top: 9px;
+    text-align: center;
+    font-size: 52.48px;
+    font-weight: 500;
+}
+
+.about ul li p {
+    font-size: 18px;
+    font-weight: 300;
+    color: #6d6d6d;
+}
+
+
+footer {
+    display: block;
+    padding: 91px 0px 0px 0px;
+    background: #d7e7e7
+}
+
+footer .left {
+    display: block;
+    width: 50%;
+}
+
+footer .left p {
+    margin-top: 7px;
+    line-height: 24px;
+    color: #00000099;
+}
+
+footer .rgt {
+    display: block;
+    width: 15.8%;
+}
+
+footer .rgt h4 {
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 57px;
+}
+
+footer .rgt ul {
+    display: flex;
+    float: right;
+    margin-top: 13px;
+}
+
+footer .rgt ul li {
+    display: flex;
+    float: left;
+    width: 38px;
+    height: 38px;
+    background: #fff;
+    border-radius: 50%;
+    align-items: center;
+    margin-right: 10px;
+}
+
+footer .rgt ul li a img {
+    margin-left: 12px;
+    padding-top: 2px;
+}
+
+footer .capyright {
+    display: block;
+    width: 100%;
+    background: #026c68;
+    margin-top: 64px;
+    height: 44px;
+}
+
+footer .capyright h6 {
+    text-align: center;
+    padding-top: 13px;
+    font-size: 16px;
+    color: #fff;
+}
+
+@media only screen and (max-width:1375px) {
+    .banner .rght .form h3 {
+        line-height: 36px;
+    }
+
+    .banner header .rgt ul li a {
+        font-size: 16px;
+    }
+
+    .Certifications ul li:nth-child(even) {
+        margin-top: 12%;
+    }
+
+    .Certifications ul li a {
+        width: 200px;
+        height: 200px;
+    }
+
+    .banner .rght .form h3 {
+        line-height: 36px;
+    }
+}
+
+@media only screen and (max-width:1250px) {
+    .banner .left h1 {
+        font-size: 45px;
+        line-height: 55px;
+    }
+
+    .banner .left h4 {
+        font-size: 18px;
+        margin-top: 10px;
+    }
+
+    h1 {
+        font-size: 45px;
+        line-height: 55px;
+    }
+
+    .Certifications ul li a {
+        width: 180px;
+        height: 180px;
+    }
+
+    .contact .left input {
+        width: 96%;
+        margin-bottom: 20px;
+    }
+
+    .contact .left .submit {
+        margin-top: 40px;
+    }
+
+    .Products span {
+        font-size: 45px;
+    }
+
+    .Certifications span {
+        font-size: 45px;
+    }
+
+    .Approval h1 {
+        font-size: 45px;
+    }
+
+    .Approval span {
+        font-size: 45px;
+    }
+
+    .Dealer h1 {
+        font-size: 45px;
+    }
+
+    .contact h1 {
+        font-size: 45px;
+    }
+
+    .contact span {
+        font-size: 45px;
+    }
+
+    .about h1 {
+        font-size: 45px;
+    }
+
+    .about span {
+        font-size: 45px;
+    }
+
+    footer .rgt {
+        width: 17%;
+    }
+}
+
+@media only screen and (max-width:1267px) {
+    .banner header {
+        display: none;
+    }
+}
+
+@media only screen and (max-width:1100px) {
+    .banner .left h1 {
+        font-size: 40px;
+    }
+
+    h1 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    .Products span {
+        font-size: 40px;
+    }
+
+    .Products ul li h5 {
+        font-size: 16px;
+    }
+
+    .Certifications span {
+        font-size: 40px;
+    }
+
+    .Approval h1 {
+        font-size: 40px;
+    }
+
+    .Approval span {
+        font-size: 40px;
+    }
+
+    .Dealer h1 {
+        font-size: 40px;
+    }
+
+    .Dealer .rgt {
+        padding: 20px;
+    }
+
+    .contact h1 {
+        font-size: 40px;
+    }
+
+    .contact span {
+        font-size: 40px;
+    }
+
+    .contact.contact {
+        width: 55%;
+    }
+
+    .contact .left .submit {
+        margin-top: 30px;
+    }
+
+    .about h1 {
+        font-size: 40px;
+    }
+
+    .about span {
+        font-size: 40px;
+    }
+
+    .about p {
+        font-size: 16px;
+    }
+
+    footer .rgt {
+        width: 19.8%;
+    }
+}
+

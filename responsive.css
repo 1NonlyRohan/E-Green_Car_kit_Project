@@ -1,0 +1,294 @@
+/* Small devices (phones, less than 768px) */
+@media only screen and (max-width: 767px) {
+    .wrap {
+        width: 100%;
+    }
+
+    .Products h2 {
+        padding: 0px 10px;
+    }
+
+    .Products ul li a {
+        margin: 10px;
+    }
+
+    .banner {
+        height: auto;
+        margin-bottom: 60px;
+    }
+
+    .banner header .wrap {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .banner header .rgt ul {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .banner header .rgt ul li {
+        margin-bottom: 15px;
+    }
+
+    .banner .left,
+    .banner .rght {
+        width: 100%;
+        float: none;
+    }
+
+    .banner .rght .form {
+        margin: 10px;
+    }
+
+    .Products h2 {
+        padding: 0px 10px;
+    }
+
+    .Products ul li {
+        width: 100%;
+        margin-right: 0px;
+    }
+
+    .Certifications ul {
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .Certifications {
+        padding: 20px 0px 20px 0px;
+    }
+
+    .Certifications ul li {
+        margin: 20px 0;
+    }
+
+    .Certifications h2 {
+        margin: 0px 20px;
+        font-size: 30px;
+        font-weight: 500;
+    }
+
+    .Approval h2 {
+        margin: 0px 10px;
+        font-size: 30px;
+        font-weight: 500;
+    }
+
+    .Dealer .left,
+    .Dealer .rgt {
+        padding: 20px;
+        width: 90% !important;
+    }
+
+    .form-boxes {
+        display: flex;
+        flex-direction: column;
+        padding: 15px;
+        float: left;
+    }
+
+    .Approval .submit {
+        margin: 10px 30px;
+    }
+
+    .Dealer h2 {
+        font-size: 30px;
+        padding: 0px 10px;
+    }
+
+    .Dealer .left,
+    .Dealer .rgt {
+        width: 100%;
+    }
+
+    .contact .left,
+    .contact .rgt {
+        width: 100%;
+        float: none;
+    }
+
+    .contact.contact {
+        width: 100%;
+    }
+
+    .contact h2 {
+        padding: 0px 15px;
+        font-size: 30px;
+        font-weight: 500;
+        margin-bottom: 14px;
+    }
+
+    .contact .left input,
+    .contact .left textarea {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .contact .left .submit {
+        margin: 20px 70px;
+    }
+
+    .contact .rgt ul {
+        margin: 10px;
+    }
+
+    .about {
+        margin: 20px 0px 50px 0px;
+        padding: 20px;
+    }
+
+    footer {
+        background: #d7e7e7;
+        padding: 30px;
+    }
+
+    footer .left,
+    footer .rgt {
+        width: 100%;
+        text-align: center;
+    }
+
+    footer .rgt ul {
+        justify-content: center;
+    }
+}
+
+/* Medium devices (tablets, 768px to 992px) */
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+    .wrap {
+        width: 95%;
+    }
+
+    .banner header .wrap {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .banner .left,
+    .banner .rght {
+        width: 48%;
+    }
+
+    .box {
+        margin: 0px 50px;
+    }
+
+    .box sec {
+        margin: 0px 50px;
+    }
+
+    .Approval .submit {
+        margin: 5% 40%;
+    }
+
+    .contact h1 {
+        font-size: 40px;
+        width: 200%;
+    }
+
+    .contact h2 {
+        font-size: 30px;
+        margin-bottom: 14px;
+        margin-left: 15px;
+    }
+
+    .contact .rgt ul {
+        width: 80%;
+    }
+
+    .about h2 {
+        font-size: 30px;
+        margin-bottom: 14px;
+        margin-left: 20px;
+    }
+
+    .contact.contact {
+        width: 100%;
+    }
+
+    .Products ul li {
+        width: 45%;
+        margin-right: 5%;
+    }
+
+    .Certifications ul {
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .Products ul li:last-child {
+        margin-right: 0px;
+    }
+
+    .Products h2 {
+        padding: 0px 10px;
+    }
+
+    .Certifications ul {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .Certifications ul li {
+        margin: 10px;
+    }
+
+    .contact .left,
+    .contact .rgt {
+        width: 48%;
+    }
+
+    footer .left,
+    footer .rgt {
+        width: 48%;
+    }
+}
+
+/* Large devices (desktops, greater than 992px) */
+@media only screen and (min-width: 993px) {
+    .wrap {
+        width: 80%;
+    }
+
+    .Products h2 {
+        padding: 0px 10px;
+    }
+
+    .banner {
+        height: 920px;
+    }
+
+    .banner .left {
+        width: 58.94%;
+    }
+
+    .banner .rght {
+        width: 32.60%;
+    }
+
+    .Products ul li {
+        width: 29.05%;
+        margin-right: 5.64%;
+    }
+
+    .Certifications ul {
+        justify-content: space-around;
+    }
+
+    .contact .left {
+        width: 60.37%;
+    }
+
+    .contact .rgt {
+        width: 29.37%;
+    }
+
+    footer .left {
+        width: 50%;
+    }
+
+    footer .rgt {
+        width: 15.8%;
+    }
+}
